@@ -1,9 +1,5 @@
 /* eslint-disable no-useless-constructor */
-/* eslint-disable no-unused-vars */
-/* global React, ReactDOM */
-/* eslint-disable react/prop-types, react/no-multi-comp */
 import React from 'react';
-import ReactDOM from 'react-dom';
 import './App.scss';
 
 const bankOne = [
@@ -365,11 +361,12 @@ class App extends React.Component {
             </div>
           </div>
         </div>
+        <center>
+          <a href="https://monproweb.io">Mon Pro Web</a>
+        </center>
       </div>
     );
   }
 }
-
-ReactDOM.render(<App />, document.getElementById('root'));
 
 export default App;
